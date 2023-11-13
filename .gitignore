@@ -49,3 +49,4 @@ tests/unit_test_cert_key-cert.pub
 tests/embedded_server/principals
 tests/embedded_server/sshd_config_*
 tests/embedded_server/*.pid
+.pdm-python

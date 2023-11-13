@@ -1,0 +1,42 @@
+[project]
+name = "parallel-ssh"
+version = "2.12.1"
+description = "Asynchronous parallel SSH library"
+authors = [
+    {name = "Panos Kittenis", email = "zuboci@yandex.com"},
+]
+dependencies = [
+    "setuptools>=68.2.2",
+    "gevent",
+    "ssh-python",
+    "ssh2-python",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "LGPLv2.1"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: OS Independent",
+    "Operating System :: POSIX :: BSD",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Networking",
+]
+
+[project.urls]
+Homepage = "https://github.com/ParallelSSH/parallel-ssh"
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
